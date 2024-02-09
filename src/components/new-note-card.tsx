@@ -104,7 +104,7 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
                     <form className='flex flex-1 flex-col'>
                         <div className='flex flex-1 flex-col gap-3 p-5'>
                             <span className='text-sm font-medium text-slate-200'>
-                                add note
+                                adicionar nota
                             </span>
 
                             {shouldShowOnboarding ? (
@@ -136,7 +136,7 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
                                 onClick={handleSaveNote}
                                 className='hover:bg-lime-500 bg-lime-400 font-medium w-full py-3 text-center text-lime-950 outline-none'
                             >
-                                save note
+                                Salvar nota
                             </button>
                         )}
                     </form>
